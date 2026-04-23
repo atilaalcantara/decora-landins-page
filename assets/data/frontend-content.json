@@ -1,0 +1,888 @@
+{
+  "hero": [
+    {
+      "id": "img-00437",
+      "src": "assets/images/site/hero-1-img-00437.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9865,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring hanging chandelier lights. Key visual elements: cake table, chandelier, trees and garden."
+    },
+    {
+      "id": "img-00409",
+      "src": "assets/images/site/hero-2-img-00409.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9665,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: decorative lights, trees and garden, string lights."
+    },
+    {
+      "id": "img-00318",
+      "src": "assets/images/site/hero-3-img-00318.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "interno",
+      "quality_score": 0.9525,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: decorative lights, ceremony chairs, light tunnel."
+    }
+  ],
+  "showcase": [
+    {
+      "id": "img-00566",
+      "src": "assets/images/site/gallery-2-img-00566.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "entrada",
+      "quality_score": 0.9717,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: decorative lights, chandelier, light tunnel."
+    },
+    {
+      "id": "img-00334",
+      "src": "assets/images/site/gallery-27-img-00334.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "interno",
+      "quality_score": 0.901,
+      "ai_description": "Scene appears to be wedding ceremony in a event entrance corridor, featuring entrance light tunnel. Key visual elements: light tunnel, chandelier, string lights."
+    },
+    {
+      "id": "img-00310",
+      "src": "assets/images/site/gallery-12-img-00310.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9336,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring hanging chandelier lights. Key visual elements: chandelier, decorative lights, light tunnel."
+    },
+    {
+      "id": "img-00239",
+      "src": "assets/images/site/gallery-8-img-00239.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "interno",
+      "quality_score": 0.9394,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, light tunnel, decorative lights."
+    },
+    {
+      "id": "img-00332",
+      "src": "assets/images/site/gallery-43-img-00332.webp",
+      "title": "Letreiro iluminado",
+      "subtitle": "Assinatura visual para momentos de foto",
+      "categories": [
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "letreiro",
+      "environment": "interno",
+      "quality_score": 0.8431,
+      "ai_description": "Scene appears to be birthday celebration at home in a dance floor area, featuring illuminated sign letters. Key visual elements: illuminated sign, decorative lights, string lights."
+    }
+  ],
+  "gallery": [
+    {
+      "id": "img-00437",
+      "src": "assets/images/site/gallery-1-img-00437.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9865,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring hanging chandelier lights. Key visual elements: cake table, chandelier, trees and garden."
+    },
+    {
+      "id": "img-00566",
+      "src": "assets/images/site/gallery-2-img-00566.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "entrada",
+      "quality_score": 0.9717,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: decorative lights, chandelier, light tunnel."
+    },
+    {
+      "id": "img-00409",
+      "src": "assets/images/site/gallery-3-img-00409.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9665,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: decorative lights, trees and garden, string lights."
+    },
+    {
+      "id": "img-00318",
+      "src": "assets/images/site/gallery-4-img-00318.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "interno",
+      "quality_score": 0.9525,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: decorative lights, ceremony chairs, light tunnel."
+    },
+    {
+      "id": "img-00417",
+      "src": "assets/images/site/gallery-5-img-00417.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9424,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: cake table, ceremony chairs, trees and garden."
+    },
+    {
+      "id": "img-00406",
+      "src": "assets/images/site/gallery-6-img-00406.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "mini_wedding",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9419,
+      "ai_description": "Scene appears to be mini wedding in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: cake table, trees and garden, ceremony chairs."
+    },
+    {
+      "id": "img-00415",
+      "src": "assets/images/site/gallery-7-img-00415.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9397,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, cake table, trees and garden."
+    },
+    {
+      "id": "img-00239",
+      "src": "assets/images/site/gallery-8-img-00239.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "interno",
+      "quality_score": 0.9394,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, light tunnel, decorative lights."
+    },
+    {
+      "id": "img-00359",
+      "src": "assets/images/site/gallery-9-img-00359.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9391,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: ceremony chairs, cake table, chandelier."
+    },
+    {
+      "id": "img-00388",
+      "src": "assets/images/site/gallery-10-img-00388.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9386,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, string lights, decorative lights."
+    },
+    {
+      "id": "img-01216",
+      "src": "assets/images/site/gallery-11-img-01216.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "mini_wedding",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9376,
+      "ai_description": "Scene appears to be mini wedding in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: ceremony chairs, chandelier, cake table."
+    },
+    {
+      "id": "img-00310",
+      "src": "assets/images/site/gallery-12-img-00310.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9336,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring hanging chandelier lights. Key visual elements: chandelier, decorative lights, light tunnel."
+    },
+    {
+      "id": "img-01258",
+      "src": "assets/images/site/gallery-13-img-01258.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.932,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: ceremony chairs, chandelier, cake table."
+    },
+    {
+      "id": "img-00665",
+      "src": "assets/images/site/gallery-14-img-00665.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "interno",
+      "quality_score": 0.9278,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, cake table, light tunnel."
+    },
+    {
+      "id": "img-01271",
+      "src": "assets/images/site/gallery-15-img-01271.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9263,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, cake table, decorative lights."
+    },
+    {
+      "id": "img-00800",
+      "src": "assets/images/site/gallery-16-img-00800.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9256,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: ceremony chairs, cake table, trees and garden."
+    },
+    {
+      "id": "img-00518",
+      "src": "assets/images/site/gallery-17-img-00518.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "cerimonia"
+      ],
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.9213,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring hanging chandelier lights. Key visual elements: string lights, ceremony chairs, decorative lights."
+    },
+    {
+      "id": "img-00283",
+      "src": "assets/images/site/gallery-18-img-00283.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "quinzeanos",
+        "teto"
+      ],
+      "event_type": "festa_15_anos",
+      "installation_type": "lustre",
+      "environment": "entrada",
+      "quality_score": 0.9644,
+      "ai_description": "Scene appears to be social event reception in a event entrance corridor, featuring hanging chandelier lights. Key visual elements: chandelier, decorative lights, string lights."
+    },
+    {
+      "id": "img-01295",
+      "src": "assets/images/site/gallery-19-img-01295.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "teto"
+      ],
+      "event_type": "evento_social",
+      "installation_type": "teto_iluminado",
+      "environment": "externo",
+      "quality_score": 0.9396,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, light tunnel, decorative lights."
+    },
+    {
+      "id": "img-00306",
+      "src": "assets/images/site/gallery-20-img-00306.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9327,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: ceremony chairs, cake table, chandelier."
+    },
+    {
+      "id": "img-01093",
+      "src": "assets/images/site/gallery-21-img-01093.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "teto"
+      ],
+      "event_type": "evento_social",
+      "installation_type": "lustre",
+      "environment": "externo",
+      "quality_score": 0.9304,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: ceremony chairs, decorative lights, trees and garden."
+    },
+    {
+      "id": "img-01269",
+      "src": "assets/images/site/gallery-22-img-01269.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "interno",
+      "quality_score": 0.9272,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, cake table, string lights."
+    },
+    {
+      "id": "img-00327",
+      "src": "assets/images/site/gallery-23-img-00327.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "externo",
+      "quality_score": 0.927,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, decorative lights, light tunnel."
+    },
+    {
+      "id": "img-00311",
+      "src": "assets/images/site/gallery-24-img-00311.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "categories": [
+        "cerimonia",
+        "teto"
+      ],
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "externo",
+      "quality_score": 0.9266,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: decorative lights, chandelier, light tunnel."
+    },
+    {
+      "id": "img-00431",
+      "src": "assets/images/site/gallery-25-img-00431.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "externo",
+      "quality_score": 0.9293,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring illuminated ceiling with fairy lights. Key visual elements: decorative lights, trees and garden, ceremony chairs."
+    },
+    {
+      "id": "img-01283",
+      "src": "assets/images/site/gallery-26-img-01283.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "externo",
+      "quality_score": 0.9174,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring entrance light tunnel. Key visual elements: ceremony chairs, light tunnel, chandelier."
+    },
+    {
+      "id": "img-00334",
+      "src": "assets/images/site/gallery-27-img-00334.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "interno",
+      "quality_score": 0.901,
+      "ai_description": "Scene appears to be wedding ceremony in a event entrance corridor, featuring entrance light tunnel. Key visual elements: light tunnel, chandelier, string lights."
+    },
+    {
+      "id": "img-01200",
+      "src": "assets/images/site/gallery-28-img-01200.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "mini_wedding",
+      "installation_type": "tunel_entrada",
+      "environment": "interno",
+      "quality_score": 0.8602,
+      "ai_description": "Scene appears to be mini wedding in a indoor ballroom event, featuring entrance light tunnel. Key visual elements: ceremony chairs, chandelier, cake table."
+    },
+    {
+      "id": "img-00324",
+      "src": "assets/images/site/gallery-29-img-00324.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "interno",
+      "quality_score": 0.8436,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring entrance light tunnel. Key visual elements: light tunnel, ceremony chairs, decorative lights."
+    },
+    {
+      "id": "img-00330",
+      "src": "assets/images/site/gallery-30-img-00330.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "tunel"
+      ],
+      "event_type": "evento_social",
+      "installation_type": "tunel_entrada",
+      "environment": "externo",
+      "quality_score": 0.8257,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring entrance light tunnel. Key visual elements: light tunnel, decorative lights, trees and garden."
+    },
+    {
+      "id": "img-01201",
+      "src": "assets/images/site/gallery-31-img-01201.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "mini_wedding",
+      "installation_type": "tunel_entrada",
+      "environment": "entrada",
+      "quality_score": 0.8163,
+      "ai_description": "Scene appears to be mini wedding in a event entrance corridor, featuring entrance light tunnel. Key visual elements: ceremony chairs, chandelier, light tunnel."
+    },
+    {
+      "id": "img-00957",
+      "src": "assets/images/site/gallery-32-img-00957.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "tunel"
+      ],
+      "event_type": "evento_social",
+      "installation_type": "tunel_entrada",
+      "environment": "entrada",
+      "quality_score": 0.7561,
+      "ai_description": "Scene appears to be social event reception in a event entrance corridor, featuring entrance light tunnel. Key visual elements: light tunnel, decorative lights, string lights."
+    },
+    {
+      "id": "img-01033",
+      "src": "assets/images/site/gallery-33-img-01033.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "interno",
+      "quality_score": 0.7187,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring entrance light tunnel. Key visual elements: chandelier, ceremony chairs, decorative lights."
+    },
+    {
+      "id": "img-00289",
+      "src": "assets/images/site/gallery-34-img-00289.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "entrada",
+      "quality_score": 0.682,
+      "ai_description": "Scene appears to be social event reception in a event entrance corridor, featuring entrance light tunnel. Key visual elements: light tunnel, decorative lights, string lights."
+    },
+    {
+      "id": "img-00977",
+      "src": "assets/images/site/gallery-35-img-00977.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "externo",
+      "quality_score": 0.6696,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring entrance light tunnel. Key visual elements: trees and garden, ceremony chairs, light tunnel."
+    },
+    {
+      "id": "img-00319",
+      "src": "assets/images/site/gallery-36-img-00319.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "categories": [
+        "cerimonia",
+        "tunel"
+      ],
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "residencial",
+      "quality_score": 0.6453,
+      "ai_description": "Scene appears to be social event reception in a event entrance corridor, featuring entrance light tunnel. Key visual elements: light tunnel, decorative lights, string lights."
+    },
+    {
+      "id": "img-00434",
+      "src": "assets/images/site/gallery-37-img-00434.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8913,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: decorative lights, string lights, chandelier."
+    },
+    {
+      "id": "img-00498",
+      "src": "assets/images/site/gallery-38-img-00498.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.874,
+      "ai_description": "Scene appears to be birthday celebration at home in a outdoor garden event, featuring string lights canopy. Key visual elements: string lights, decorative lights, chandelier."
+    },
+    {
+      "id": "img-02025",
+      "src": "assets/images/site/gallery-39-img-02025.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.861,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: trees and garden, decorative lights, chandelier."
+    },
+    {
+      "id": "img-02587",
+      "src": "assets/images/site/gallery-40-img-02587.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8556,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: decorative lights, string lights, chandelier."
+    },
+    {
+      "id": "img-02147",
+      "src": "assets/images/site/gallery-41-img-02147.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8539,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring string lights canopy. Key visual elements: string lights, light tunnel, decorative lights."
+    },
+    {
+      "id": "img-00447",
+      "src": "assets/images/site/gallery-42-img-00447.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8489,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: trees and garden, decorative lights, light tunnel."
+    },
+    {
+      "id": "img-00332",
+      "src": "assets/images/site/gallery-43-img-00332.webp",
+      "title": "Letreiro iluminado",
+      "subtitle": "Assinatura visual para momentos de foto",
+      "categories": [
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "letreiro",
+      "environment": "interno",
+      "quality_score": 0.8431,
+      "ai_description": "Scene appears to be birthday celebration at home in a dance floor area, featuring illuminated sign letters. Key visual elements: illuminated sign, decorative lights, string lights."
+    },
+    {
+      "id": "img-02594",
+      "src": "assets/images/site/gallery-44-img-02594.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8394,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: trees and garden, decorative lights, string lights."
+    },
+    {
+      "id": "img-00488",
+      "src": "assets/images/site/gallery-45-img-00488.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "residencial",
+      "quality_score": 0.8285,
+      "ai_description": "Scene appears to be birthday celebration at home in a residential backyard event, featuring illuminated ceiling with fairy lights. Key visual elements: decorative lights, chandelier, string lights."
+    },
+    {
+      "id": "img-02440",
+      "src": "assets/images/site/gallery-46-img-02440.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8258,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring hanging chandelier lights. Key visual elements: decorative lights, string lights, light tunnel."
+    },
+    {
+      "id": "img-01883",
+      "src": "assets/images/site/gallery-47-img-01883.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "residencial",
+      "quality_score": 0.8124,
+      "ai_description": "Scene appears to be birthday celebration at home in a residential backyard event, featuring outdoor perimeter string lights. Key visual elements: decorative lights, chandelier, string lights."
+    },
+    {
+      "id": "img-00450",
+      "src": "assets/images/site/gallery-48-img-00450.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "categories": [
+        "aoarlivre",
+        "residencial"
+      ],
+      "event_type": "evento_residencial",
+      "installation_type": "varal_de_luzes",
+      "environment": "externo",
+      "quality_score": 0.8078,
+      "ai_description": "Scene appears to be wedding ceremony in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: ceremony chairs, decorative lights, string lights."
+    }
+  ],
+  "services": {
+    "varal_de_luzes": {
+      "id": "img-00566",
+      "src": "assets/images/site/gallery-2-img-00566.webp",
+      "title": "Varal de luzes",
+      "subtitle": "Composição de varal para cerimônia e recepção",
+      "event_type": "casamento",
+      "installation_type": "varal_de_luzes",
+      "environment": "entrada",
+      "quality_score": 0.9717,
+      "ai_description": "Scene appears to be social event reception in a outdoor garden event, featuring outdoor perimeter string lights. Key visual elements: decorative lights, chandelier, light tunnel."
+    },
+    "tunel_entrada": {
+      "id": "img-00334",
+      "src": "assets/images/site/gallery-27-img-00334.webp",
+      "title": "Túnel de entrada",
+      "subtitle": "Entrada cênica com condução visual",
+      "event_type": "casamento",
+      "installation_type": "tunel_entrada",
+      "environment": "interno",
+      "quality_score": 0.901,
+      "ai_description": "Scene appears to be wedding ceremony in a event entrance corridor, featuring entrance light tunnel. Key visual elements: light tunnel, chandelier, string lights."
+    },
+    "lustre": {
+      "id": "img-00310",
+      "src": "assets/images/site/gallery-12-img-00310.webp",
+      "title": "Lustre de luz",
+      "subtitle": "Ponto de destaque para pista ou mesa principal",
+      "event_type": "casamento",
+      "installation_type": "lustre",
+      "environment": "interno",
+      "quality_score": 0.9336,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring hanging chandelier lights. Key visual elements: chandelier, decorative lights, light tunnel."
+    },
+    "teto_iluminado": {
+      "id": "img-00239",
+      "src": "assets/images/site/gallery-8-img-00239.webp",
+      "title": "Teto iluminado",
+      "subtitle": "Cobertura luminosa para atmosfera imersiva",
+      "event_type": "casamento",
+      "installation_type": "teto_iluminado",
+      "environment": "interno",
+      "quality_score": 0.9394,
+      "ai_description": "Scene appears to be wedding ceremony in a indoor ballroom event, featuring illuminated ceiling with fairy lights. Key visual elements: ceremony chairs, light tunnel, decorative lights."
+    }
+  }
+}
