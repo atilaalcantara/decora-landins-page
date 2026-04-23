@@ -1,19 +1,44 @@
-# Decora Varal de Luzes — Landing Premium Orientada por Dados
+# Decora Landing
+
+Landing page da Decora Varal de Luzes, com curadoria visual orientada por dataset local e foco em conversão.
 
 ## Visão geral
-Este projeto combina pipeline local de análise de conteúdo + landing page premium para portfólio e conversão.
 
-Melhorias desta versão:
-- seção de Instagram reformulada (mais estilosa e claramente clicável)
-- galeria com filtros + paginação (não carrega tudo de uma vez)
-- títulos e cópias menos técnicas e mais comerciais
-- ordem de seções reorganizada para narrativa de conversão
-- correção do header no desktop (alinhamento central)
-- correção das imagens faltantes em serviços (`lustre` e `teto_iluminado`)
-- imagens do frontend convertidas para WebP
+O projeto combina duas frentes:
 
-## Estrutura de dataset (pipeline local)
-O pipeline organiza e enriquece o dataset em:
+- frontend estático (HTML, CSS e JS puro)
+- pipeline local para preparar conteúdo visual e gerar payload do frontend
+
+Principais recursos da landing:
+
+- hero com slideshow
+- seção de serviços com fundos reais
+- showcase de destaques
+- galeria com filtros, paginação e lightbox
+- CTA para WhatsApp e Instagram
+- layout responsivo com refinamento mobile
+
+## Estrutura do projeto
+
+- `index.html`: estrutura da landing
+- `styles.css`: estilos globais e responsividade
+- `script.js`: comportamento de UI, carregamento de dados e galeria
+- `assets/data/frontend-content.json`: conteúdo consumido pelo frontend
+- `assets/images/site/`: imagens otimizadas para a landing
+- `scripts/`: scripts do pipeline local
+
+## Pipeline local de conteúdo
+
+Scripts:
+
+- `scripts/build_dataset_catalog.py`
+  - varredura, limpeza de legendas, deduplicação e qualidade
+- `scripts/local_ai_vision.mjs`
+  - classificação visual local com `@xenova/transformers`
+- `scripts/merge_enriched_catalog.py`
+  - fusão legenda + IA e geração do payload final do frontend
+
+Formato esperado de diretórios do dataset (fora do escopo da publicação da landing):
 
 - `dataset/raw/`
 - `dataset/processed/`
@@ -23,93 +48,82 @@ O pipeline organiza e enriquece o dataset em:
 - `dataset/catalog.json`
 - `dataset/catalog_enriched.json`
 
-## Pipeline local e ferramentas
-### Escolha técnica
-Para rodar bem no MacBook Pro M1 Pro 16GB sem downloads absurdos:
-- Python (heurísticas + qualidade + deduplicação)
-- Node.js + `@xenova/transformers`
-- modelo local: `Xenova/clip-vit-base-patch32`
+## Como rodar localmente
 
-Motivo:
-- leve/médio, viável em Apple Silicon
-- sem modelos de dezenas de GB
-- bom equilíbrio entre custo computacional e ganho de classificação
+Suba um servidor estático na raiz do projeto:
 
-### Scripts
-- `scripts/build_dataset_catalog.py`
-  - varredura, limpeza de legendas, deduplicação, qualidade
-- `scripts/local_ai_vision.mjs`
-  - classificação visual local (evento/instalação/ambiente/objetos)
-- `scripts/merge_enriched_catalog.py`
-  - fusão legenda + IA, geração do catálogo final e payload do frontend
-  - exporta imagens otimizadas em **WebP** para `assets/images/site/`
+```bash
+python3 -m http.server 8000
+```
 
-## Como rodar de novo
-### 1) Ambiente Python
+Abra no navegador:
+
+- `http://localhost:8000`
+
+## Como regenerar o conteúdo (pipeline)
+
+1. Ambiente Python
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install pillow numpy imagehash
 ```
 
-### 2) Gerar base do dataset
+2. Gerar base do dataset
+
 ```bash
-source .venv/bin/activate
 python scripts/build_dataset_catalog.py --root . --dataset-dir dataset
 ```
 
-### 3) Dependência de IA local
+3. Instalar dependência de IA local
+
 ```bash
 npm install @xenova/transformers
 ```
 
-### 4) Rodar análise visual local
+4. Rodar análise visual local
+
 ```bash
 node scripts/local_ai_vision.mjs --input=dataset/processed/ai_jobs.json --output=dataset/processed/ai_results.json
 ```
 
-### 5) Gerar catálogo enriquecido e frontend
+5. Gerar catálogo enriquecido e payload do frontend
+
 ```bash
-source .venv/bin/activate
 python scripts/merge_enriched_catalog.py --dataset-dir dataset --ai-file dataset/processed/ai_results.json
 ```
 
-## Integração no frontend
-A landing consome:
-- `assets/data/frontend-content.json`
+## Melhorias recentes
 
-A página usa esses dados para renderizar:
-- hero dinâmico
-- transformação (showcase)
-- cards de serviços com fundo real
-- galeria filtrável com paginação
-- lightbox fullscreen com navegação lateral
+- transições entre seções ajustadas para remover rastros visuais
+- refinamento de layout mobile (espaçamento, composição e legibilidade)
+- otimizações de runtime no JS (scroll com `requestAnimationFrame`, listeners passivos e observers mais eficientes)
+- preload/priorização da imagem principal e `defer` no script
+- favicon configurado com o logo da marca
 
-## Rodar localmente
-Use servidor estático (necessário para `fetch` do JSON):
+## Auditoria de performance
 
-```bash
-python3 -m http.server 8000
-```
+Relatórios Lighthouse (local):
 
-Abra:
-- `http://localhost:8000`
+- `lighthouse-mobile.json`
+- `lighthouse-desktop.json`
+
+Resultado da última rodada:
+
+- mobile: Performance 71, Accessibility 100, Best Practices 96, SEO 100
+- desktop: Performance 94, Accessibility 100, Best Practices 96, SEO 100
+
+Principais gargalos atuais no mobile:
+
+- recursos bloqueantes (Google Fonts + CSS principal)
+- imagens acima do necessário para o viewport móvel
 
 ## Publicação
-Como é frontend puro:
+
+Por ser frontend estático, pode ser publicado em:
+
 - GitHub Pages
 - Netlify
-- Vercel (static)
-- qualquer host de arquivos estáticos
-
-## Pasta enxuta para Git
-Foi criada uma versão pronta para subir em:
-- `project/decora-landing/`
-
-Ela contém apenas o necessário para versionar e publicar a landing sem o dataset bruto gigante.
-
-## Tradeoffs
-- classificação local por CLIP é robusta para tags, mas não substitui descrição humana completa
-- as regras de fusão (legenda + IA) são determinísticas para facilitar manutenção
-- categorias com pouca ocorrência real podem ficar naturalmente menores
-# decora-landins-page
+- Vercel (modo estático)
+- qualquer servidor de arquivos estáticos
